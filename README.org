@@ -12,6 +12,16 @@
 
    [[https://reference.digilentinc.com/vivado/installing-vivado/start]]
 
+   #+BEGIN_SRC sh
+     cd ~/tools/Xilinx/Vivado/2018.3/data/xicom/cable_drivers/lin64/install_script/install_drivers
+     sudo ./install_drivers
+     sudo adduser $USER dialout
+     cd ~/tools/Xilinx/Vivado/
+     git clone https://github.com/Digilent/vivado-boards/
+     sed -i 's:<extracted path>:'$PWD':g' vivado-boards/utility/Vivado_init.tcl
+     cp vivado-boards/utility/Vivado_init.tcl ~/.Xilinx/Vivado
+   #+END_SRC
+
 * Zynq
 
 ** Cora Z7
