@@ -1,0 +1,20 @@
+#+TITLE: Xilinx Setup
+#+AUTHOR: Peter Polidoro
+#+EMAIL: peterpolidoro@gmail.com
+
+* Repository Information
+  - Author :: Peter Polidoro
+  - License :: BSD
+
+* Install Vivado and Board Files
+
+** Digilent
+
+   [[https://reference.digilentinc.com/vivado/installing-vivado/start]]
+
+* Zynq
+
+** Cora Z7
+
+   #+BEGIN_SRC sh
+   #+END_SRC
