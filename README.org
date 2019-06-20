@@ -20,6 +20,7 @@
      git clone https://github.com/Digilent/vivado-boards/
      sed -i 's:<extracted path>:'$PWD':g' vivado-boards/utility/Vivado_init.tcl
      cp vivado-boards/utility/Vivado_init.tcl ~/.Xilinx/Vivado
+     git clone https://github.com/Digilent/digilent-xdc
    #+END_SRC
 
 * Zynq
